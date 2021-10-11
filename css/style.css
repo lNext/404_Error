@@ -55,7 +55,14 @@ footer{
     bottom: 0;
     width: 90%;   
 }
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer a{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     text-decoration: none;
     color: #BDBDBD;
 }
