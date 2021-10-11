@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+#error{
+    width: 100%;
+}
+
+.title1{
+    font-weight: bold;
+}
+
+.messages{
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.imagen{
+    width: 50%;
+}
+
+.imagen img{
+    width: 50%;
+    margin-left: 300px;
+}
+
+.texto{
+    width: 50%;
+}
+
+.texto p{
+    width: 300px;
+}
+
+.texto h1{
+    width: 250px;
+
+}
+
+.boton a{
+    text-decoration: none;
+    background: #333333;
+    color: white;
+}
+
+@media screen and (max-width: 810px){
+    .messages{
+        flex-direction: column;
+        margin: 0;
+    }
+    .texto{
+        width: 100%;
+        margin: 0;
+    }
+    .imagen, .texto h1, .texto p{
+        width: 100%;
+    }
+
+    .imagen img{
+        width: 100%;
+        margin: 0;
+    }
+
+}
